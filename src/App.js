@@ -12,9 +12,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        {/* 기본 안내 페이지 */}
         <Route path="/" element={<div>App.js와 example.js를 확인해주세요.</div>} />
-        {/* example 컴포넌트 라우트 */}
         <Route path="/example" element={<Example />} />
       </Routes>
     </Router>
