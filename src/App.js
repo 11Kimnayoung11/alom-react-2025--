@@ -12,8 +12,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<div>App.js와 example.js를 확인해주세요.</div>} />
-        <Route path="/example" element={<Example />} />
+        <Route path="/" element={<Example />} />
       </Routes>
     </Router>
   );
